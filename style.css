@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap");
+* {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 160%;
+}
+*:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a {
+  cursor: pointer;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+p {
+  line-height: 140% !important;
+}
+header {
+}
+nav {
+  font-family: "Jost", sans-serif !important;
+  margin: 1.3rem 20%;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #1d1d1d;
+  display: flex;
+  justify-content: space-between;
+}
+.navLinkWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  font-size: 1.625rem !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+}
+.startWrapper {
+  height: 731px;
+  background-image: url(/assets/background.jpg);
+  background-position: 50% 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.startBack {
+  padding: 64px;
+  background: white;
+  margin-right: 50vh;
+  max-width: 25%;
+  border-radius: 10px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  line-height: 140% !important;
+}
+h2 {
+  font-weight: 400;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  line-height: 140% !important;
+}
+.startBack p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #1d1d1d;
+  margin-bottom: 2rem;
+  font-family: "Jost", sans-serif !important;
+}
+.startBack button {
+  background: rgba(52, 175, 162, 1);
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+
+  font-weight: 300;
+  font-size: 1.5rem;
+
+  min-height: 6vh;
+  min-width: 30vh;
+  cursor: pointer;
+}
+.startBack button:hover {
+  background: rgb(39, 131, 100);
+}
+.aboutWorkWrapper {
+  background-color: #f4f4f4;
+  padding: 4rem 20%;
+}
+.aboutWork__ {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutWork__number {
+  color: #34afa2;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+.aboutWork__description {
+  color: #1d1d1d;
+  font-weight: 300;
+}
+.ourWorks {
+  padding: 4rem 20%;
+  background: white;
+}
+.ourWorks p {
+  font-size: 22px;
+  margin-left: 2vh;
+  font-weight: 300;
+}
+.ourWorks h2 {
+  margin-left: 2vh;
+}
+.ourWorksGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6vh;
+}
+.smallPicture {
+  width: 335px;
+  height: 366px;
+  margin-right: 2vh;
+  margin-left: 2vh;
+  margin-bottom: 4vh;
+}
+.smallPicture img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.bigPicture {
+  width: 670px;
+  height: 366px;
+  margin-right: 2vh;
+  margin-left: 2vh;
+  margin-bottom: 4vh;
+}
+.bigPicture img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.howWeWork {
+  padding: 4rem 20%;
+  background-color: #f4f4f4;
+}
+.howWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.number {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #34afa2;
+  font-size: 55px;
+  font-weight: 500;
+}
+.howWrapper__ {
+  width: 44%;
+  min-height: 15rem;
+}
+.howWrapper__ button {
+  min-height: 2.5rem;
+  min-width: 9rem;
+  background-color: #34afa2;
+  border: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.0625rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.howWrapper__ button:hover {
+  background: rgb(39, 131, 100);
+}
+.howWrapper__title {
+  font-size: 19px;
+  color: black;
+  margin-bottom: 1vh;
+  line-height: 160%;
+}
+.howWrapper__description {
+  font-weight: 300;
+  font-size: 1.0625rem;
+  font-family: "Jost", sans-serif !important;
+  color: #525252;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.services {
+  padding: 4rem 20%;
+  background-color: #ffffff;
+}
+.services_subTitle {
+  margin-bottom: 4rem;
+  font-weight: 300;
+  font-size: 1.375rem;
+  font-family: "Jost", sans-serif !important;
+}
+.servicesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.services__ {
+  width: 34vh;
+  min-height: 515px;
+  min-width: 290px;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.services__imgWrapper {
+  width: 325px;
+  height: 235px;
+}
+.services__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 270px;
+}
+.services__title {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.1875rem;
+}
+.services__description {
+  font-size: 1.0625rem;
+  font-family: "Jost", sans-serif !important;
+  margin-top: 1rem;
+  font-weight: 300;
+  padding: 0vh 2rem;
+  min-height: 2rem;
+}
+.services__price {
+  font-size: 1.1875rem;
+  margin-top: 1rem;
+}
+.services__button {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 1 !important;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  border: none;
+  background: #34afa2;
+  color: white;
+  font-weight: 300;
+  cursor: pointer;
+}
+.services__button:hover {
+  background: rgb(39, 131, 100);
+}
+.reviews {
+  padding: 10rem 20%;
+  background-color: #f4f4f4;
+}
+.reviewsSubTitle {
+  font-family: "Jost", sans-serif !important;
+  font-size: 1.375rem;
+  font-weight: 300;
+}
+.reviewsPanel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.reviews__ {
+  width: 262px;
+  height: 365px;
+  padding: 2rem;
+  background: white;
+}
+.reviews__title {
+  font-size: 1.1875rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  min-height: 3rem;
+}
+.reviews__subTitle {
+  font-size: 1.0625rem;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  min-height: 14rem;
+}
+.reviews__avatarBlock {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.reviews__avatarBlock p {
+  font-family: "Jost", sans-serif !important;
+  font-weight: 300;
+}
+.reviewImgWrapper {
+  width: 64px;
+  height: 64px;
+  margin-right: 4vh;
+}
+.reviewImgWrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+.questions {
+  height: 731px;
+  background-image: url(/assets/background2.jpg);
+  background-position: 50% 50%;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.questionsWrapper {
+  padding: 64px;
+  background: white;
+  margin-right: 50vh;
+  max-width: 25%;
+  border-radius: 10px;
+}
+.questionsWrapper p {
+  font-size: 1.375rem;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.questionsWrapper button {
+  background: rgba(52, 175, 162, 1);
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+
+  font-weight: 300;
+  font-size: 1.5rem;
+
+  min-height: 6vh;
+  min-width: 30vh;
+  cursor: pointer;
+}
+.questionsWrapper button:hover {
+  background: rgb(39, 131, 100);
+}
+.contacts {
+  padding: 10rem 20%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacts h2 {
+  color: #34afa2;
+  margin-bottom: 1rem;
+}
+.contacts hr {
+  width: 11rem;
+  height: 0.2rem;
+  border: none;
+  background-color: #ededed;
+}
+.contacts p {
+  font-size: 1.375rem;
+  margin-top: 2rem;
+  font-family: "Jost", sans-serif !important;
+  color: #8d8d8d !important;
+  font-weight: 300;
+}
+.contactsBlock {
+  width: 48%;
+}
+.yMap {
+  width: 48%;
+  height: auto;
+}
+.yMap img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.societeLink {
+  display: flex;
+  justify-content: left;
+}
+.societeLink p {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+footer {
+  background-color: #f4f4f4;
+  padding: 4rem 20%;
+  font-size: 1.625rem !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  text-align: center;
+}
